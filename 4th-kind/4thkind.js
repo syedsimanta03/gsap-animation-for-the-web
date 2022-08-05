@@ -17,7 +17,7 @@ menuToggle.addEventListener("click", function () {
     gsap.to(".burger-top", { rotation: 45, transformOrigin: "50% 50%", y: 8 })
     gsap.to(".burger-bottom", { rotation: -45, transformOrigin: "50% 50%", y: -8 })
     gsap.to(".burger-mid", { width: 0 })
-  } else {
+  } else { 
     menuToggleText.innerHTML = "Menu"
     
     gsap.to(".burger-top", { rotation: 0, y: 0 })
