@@ -2,7 +2,7 @@ const storyTimeline = gsap.timeline()
 
 gsap.set("section.house", { opacity: 0 })
 gsap.set("section.scene", { opacity: 0 })
-gsap.set("section.scene img", { 
+gsap.set("section.scene img", {   
   x: (index) => {
     return (index * 100 + 300) + "vh"
   }
